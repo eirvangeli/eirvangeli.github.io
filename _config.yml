@@ -1,0 +1,23 @@
+title: Eirini Vangeli
+description: Portfolio of Eirini Vangeli
+url: "https://eirvangeli.github.io"
+baseurl: ""
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+    sort_by: date
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
