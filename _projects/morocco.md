@@ -2,7 +2,7 @@
 title: "Morocco"
 description: "A visual exploration of Morocco — its colors, architecture, and everyday life."
 cover: "/assets/images/projects/morocco/1.png"
-date: 2026-02-01
+date: 2025-02-01
 images:
   - "/assets/images/projects/morocco/1.png"
   - "/assets/images/projects/morocco/2.png"

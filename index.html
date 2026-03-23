@@ -12,7 +12,7 @@ title: Eirini Vangeli
         <img src="{{ project.cover | relative_url }}" alt="{{ project.title }}">
       </div>
       <div class="project-card__info">
-        <h3 class="project-card__title">{{ project.title }}</h3>
+        <h3 class="project-card__title">{{ project.title }} <span class="project-card__date">{{ project.date | date: "%Y" }}</span></h3>
         <p class="project-card__description">{{ project.description | truncate: 120 }}</p>
       </div>
     </a>

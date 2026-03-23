@@ -11,7 +11,7 @@ layout: default
   </a>
 
   <header class="project-page__header">
-    <h1 class="project-page__title">{{ page.title }}</h1>
+    <h1 class="project-page__title">{{ page.title }} <span class="project-page__date">{{ page.date | date: "%Y" }}</span></h1>
     <p class="project-page__description">{{ page.description }}</p>
   </header>
 
