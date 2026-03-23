@@ -75,12 +75,19 @@ a:hover {
 }
 
 .sidebar__photo {
-  width: 130px;
-  height: 130px;
+  display: block;
+  width: 170px;
+  height: 170px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--color-border);
+  transition: border-color var(--transition-base), transform var(--transition-base);
+}
+
+.sidebar__photo:hover {
+  border-color: var(--color-accent);
+  transform: scale(1.03);
 }
 
 .sidebar__photo img {
