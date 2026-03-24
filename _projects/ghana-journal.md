@@ -2,7 +2,7 @@
 title: "Ghana Journal"
 description: "A visual journal documenting moments, textures, and stories from Ghana."
 cover: "/assets/images/projects/ghana-journal/1.png"
-date: 2025-01-01
+date: 2025-02-01
 images:
   - "/assets/images/projects/ghana-journal/1.png"
   - "/assets/images/projects/ghana-journal/2.png"

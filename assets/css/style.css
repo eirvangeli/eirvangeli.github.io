@@ -63,15 +63,20 @@ a:hover {
   background: var(--color-sidebar);
   border-right: 1px solid var(--color-border);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 100;
   transition: transform var(--transition-base);
 }
 
-.sidebar__inner {
+.sidebar__top {
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.sidebar__bottom {
+  text-align: center;
+  padding: 1.5rem;
 }
 
 .sidebar__photo {
@@ -124,6 +129,52 @@ a:hover {
   color: var(--color-text-light);
   letter-spacing: 0.03em;
   margin-bottom: 1.8rem;
+}
+
+/* Sidebar Navigation */
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar__nav-link {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--color-text-light);
+  opacity: 0.5;
+  transition: color var(--transition-base), opacity var(--transition-base);
+  padding: 0.15rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+.sidebar__nav-link:hover {
+  color: var(--color-text);
+  opacity: 0.75;
+}
+
+.sidebar__nav-link.active {
+  color: var(--color-text);
+  opacity: 1;
+}
+
+.sidebar__nav-link::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+  background: transparent;
+  transition: background var(--transition-base);
+}
+
+.sidebar__nav-link.active::before {
+  background: var(--color-accent);
 }
 
 .sidebar__socials {
@@ -186,6 +237,26 @@ a:hover {
   min-height: 100vh;
   padding: 3.5rem 3rem 4rem;
   position: relative;
+}
+
+/* ===== Bio Page ===== */
+.bio {
+  max-width: 680px;
+}
+
+.bio__heading {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.bio__text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-light);
 }
 
 /* ===== Projects Grid (Home) ===== */

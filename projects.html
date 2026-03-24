@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects — Eirini Vangeli
+permalink: /projects/
+---
+<section class="projects">
+  <h2 class="projects__heading">Projects</h2>
+  <div class="projects__grid">
+    {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+    {% for project in sorted_projects %}
+    <a href="{{ project.url | relative_url }}" class="project-card fade-in">
+      <div class="project-card__image">
+        <img src="{{ project.cover | relative_url }}" alt="{{ project.title }}">
+      </div>
+      <div class="project-card__info">
+        <h3 class="project-card__title">{{ project.title }} <span class="project-card__date">{{ project.date | date: "%Y" }}</span></h3>
+        <p class="project-card__description">{{ project.description | truncate: 120 }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>

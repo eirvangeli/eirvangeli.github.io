@@ -2,7 +2,7 @@
 title: "South Africa"
 description: "Scenes and impressions from South Africa — landscapes, people, and light."
 cover: "/assets/images/projects/south-africa/1.png"
-date: 2025-03-01
+date: 2025-04-01
 images:
   - "/assets/images/projects/south-africa/1.png"
   - "/assets/images/projects/south-africa/2.png"

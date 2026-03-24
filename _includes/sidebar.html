@@ -1,5 +1,5 @@
 <aside class="sidebar" id="sidebar">
-  <div class="sidebar__inner">
+  <div class="sidebar__top">
     <a href="{{ '/' | relative_url }}" class="sidebar__photo">
       <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Eirini Vangeli">
     </a>
@@ -7,6 +7,13 @@
     <h1 class="sidebar__name">Eirini Vangeli</h1>
     <p class="sidebar__location">Santa Monica, California</p>
 
+    <nav class="sidebar__nav">
+      <a href="{{ '/' | relative_url }}" class="sidebar__nav-link {% if page.url == '/' %}active{% endif %}">Bio</a>
+      <a href="{{ '/projects/' | relative_url }}" class="sidebar__nav-link {% if page.url contains '/projects' %}active{% endif %}">Projects</a>
+    </nav>
+  </div>
+
+  <div class="sidebar__bottom">
     <nav class="sidebar__socials">
       <a href="mailto:eir.vangeli@gmail.com" aria-label="Email" class="sidebar__social-link">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
