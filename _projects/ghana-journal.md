@@ -1,6 +1,6 @@
 ---
 title: "Ghana Journal"
-description: "A visual journal documenting moments, textures, and stories from Ghana."
+description: "A tour journal created for the Philadelphia Boys Choir & Chorale, designed to encourage reflection and connection during their trip to Ghana."
 cover: "/assets/images/projects/ghana-journal/1.png"
 date: 2025-02-01
 images:

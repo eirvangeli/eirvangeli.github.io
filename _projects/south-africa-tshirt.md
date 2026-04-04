@@ -1,6 +1,6 @@
 ---
 title: "South Africa Tshirt"
-description: "Front and back designs for the South Africa trip tshirt."
+description: "Tour apparel designed for the Commonwealth Youth Choir's South Africa trip."
 cover: "/assets/images/projects/south-africa-tshirt/front.jpg"
 date: 2025-01-01
 images:

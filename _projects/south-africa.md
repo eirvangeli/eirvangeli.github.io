@@ -1,6 +1,6 @@
 ---
 title: "South Africa"
-description: "Scenes and impressions from South Africa — landscapes, people, and light."
+description: "A tour journal created for the Commonwealth Youth Choir, designed to encourage reflection and connection during their trip to South Africa."
 cover: "/assets/images/projects/south-africa/1.png"
 date: 2025-04-01
 images:

@@ -1,6 +1,6 @@
 ---
 title: "Morocco"
-description: "A visual exploration of Morocco — its colors, architecture, and everyday life."
+description: "A tour journal created for the Philadelphia Girls Choir, designed to encourage reflection and connection during their trip to Morocco."
 cover: "/assets/images/projects/morocco/1.png"
 date: 2025-03-01
 images:
