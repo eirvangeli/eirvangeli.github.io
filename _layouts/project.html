@@ -15,7 +15,7 @@ layout: default
     <p class="project-page__description">{{ page.description }}</p>
   </header>
 
-  <div class="project-page__gallery">
+  <div class="project-page__gallery{% if page.images.size <= 2 %} gallery--few{% endif %}">
     {% for image in page.images %}
     <figure class="project-page__image fade-in">
       <img src="{{ image | relative_url }}" alt="{{ page.title }} – image {{ forloop.index }}" loading="lazy">
