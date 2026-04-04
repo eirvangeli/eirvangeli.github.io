@@ -1,7 +1,8 @@
 title: Eirini Vangeli
-description: Portfolio of Eirini Vangeli
+description: Eirini Vangeli is a visual storyteller and marketing professional based in Los Angeles. Portfolio of tour journals, merchandise design, and creative projects.
 url: "https://eirvangeli.github.io"
 baseurl: ""
+author: Eirini Vangeli
 
 collections:
   projects:
